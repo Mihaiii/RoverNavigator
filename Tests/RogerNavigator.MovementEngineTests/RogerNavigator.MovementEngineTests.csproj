@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RoverNavigator.CommandParser\RoverNavigator.CommandParser.csproj" />
+    <ProjectReference Include="..\..\RoverNavigator.Entities\RoverNavigator.Entities.csproj" />
+    <ProjectReference Include="..\..\RoverNavigator.Enums\RoverNavigator.Enums.csproj" />
+    <ProjectReference Include="..\..\RoverNavigator.MovementEngine\RoverNavigator.MovementEngine.csproj" />
+  </ItemGroup>
+
+</Project>
